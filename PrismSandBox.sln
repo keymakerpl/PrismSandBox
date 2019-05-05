@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismSandBox", "PrismSandBox\PrismSandBox.csproj", "{BC99B8D2-5271-4C6F-B847-9633B5DCBD37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismSandBox.Infrastructure", "PrismSandBox.Infrastructure\PrismSandBox.Infrastructure.csproj", "{92A61C07-A191-4FE1-8224-32C7EDAAE348}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{AD8791E1-E61A-4E74-A644-05125CD4CE04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{8549D184-9E1E-4C27-95C6-EDC6F4806E29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleA", "ModuleA\ModuleA.csproj", "{468C695F-ED06-4CD1-BCEB-579F03CD9FF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleB", "ModuleB\ModuleB.csproj", "{6A305F3A-1094-4D4B-9D9C-29E4BEDB4B69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC99B8D2-5271-4C6F-B847-9633B5DCBD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC99B8D2-5271-4C6F-B847-9633B5DCBD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC99B8D2-5271-4C6F-B847-9633B5DCBD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC99B8D2-5271-4C6F-B847-9633B5DCBD37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A61C07-A191-4FE1-8224-32C7EDAAE348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A61C07-A191-4FE1-8224-32C7EDAAE348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A61C07-A191-4FE1-8224-32C7EDAAE348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A61C07-A191-4FE1-8224-32C7EDAAE348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{468C695F-ED06-4CD1-BCEB-579F03CD9FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{468C695F-ED06-4CD1-BCEB-579F03CD9FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{468C695F-ED06-4CD1-BCEB-579F03CD9FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{468C695F-ED06-4CD1-BCEB-579F03CD9FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A305F3A-1094-4D4B-9D9C-29E4BEDB4B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A305F3A-1094-4D4B-9D9C-29E4BEDB4B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A305F3A-1094-4D4B-9D9C-29E4BEDB4B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A305F3A-1094-4D4B-9D9C-29E4BEDB4B69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{468C695F-ED06-4CD1-BCEB-579F03CD9FF9} = {8549D184-9E1E-4C27-95C6-EDC6F4806E29}
+		{6A305F3A-1094-4D4B-9D9C-29E4BEDB4B69} = {8549D184-9E1E-4C27-95C6-EDC6F4806E29}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+		SolutionGuid = {C3F8B569-165F-43A9-8C95-B78DA9C552C1}
+	EndGlobalSection
+EndGlobal
