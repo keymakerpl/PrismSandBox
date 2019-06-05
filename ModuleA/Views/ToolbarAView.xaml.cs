@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ModuleA
+namespace ModuleA.Views
 {
     /// <summary>
     /// Interaction logic for UserControl1.xaml
     /// </summary>
-    public partial class ToolbarView : UserControl
+    public partial class ToolbarAView : UserControl
     {
-        public ToolbarView()
+        public ToolbarAView()
         {
             InitializeComponent();
         }

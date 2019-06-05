@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Prism.Regions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,19 +11,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ModuleA
+namespace PrismSandBox.Views
 {
     /// <summary>
-    /// Interaction logic for ContentView.xaml
+    /// Interaction logic for Shell.xaml
     /// </summary>
-    public partial class ContentView : UserControl
+    public partial class Shell : Window
     {
-        public ContentView()
+        public Shell()
         {
             InitializeComponent();
-        }
+        }        
     }
 }

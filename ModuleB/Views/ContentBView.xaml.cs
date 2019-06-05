@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ModuleB
+namespace ModuleB.Views
 {
     /// <summary>
     /// Interaction logic for UserControl1.xaml
     /// </summary>
-    public partial class UserControl1 : UserControl
+    public partial class ContentBView : UserControl
     {
-        public UserControl1()
+        public ContentBView()
         {
             InitializeComponent();
         }

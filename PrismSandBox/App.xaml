@@ -1,8 +1,10 @@
-﻿<Application x:Class="PrismSandBox.App"
+﻿<prism:PrismApplication x:Class="PrismSandBox.Application.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:PrismSandBox">
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+	         xmlns:prism="http://prismlibrary.com/"
+             xmlns:local="clr-namespace:PrismSandBox.Application">
     <Application.Resources>
          
     </Application.Resources>
-</Application>
+</prism:PrismApplication>

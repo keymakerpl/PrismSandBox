@@ -1,23 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using ModuleA;
+using ModuleB;
+using Prism.Ioc;
+using Prism.Modularity;
+using PrismSandBox.Views;
 using System.Windows;
 
-namespace PrismSandBox
+namespace PrismSandBox.Application
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
-    public partial class App : Application
+    public partial class App
     {
+        //TODO: App unexpected error handler
+        protected override Window CreateShell()
+        {
+            return Container.Resolve<Shell>();
+        }
+
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
-            var bootstrapper = new Bootstrapper();
-            bootstrapper.Run();
+        }
+
+        protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
+        {
+            base.ConfigureModuleCatalog(moduleCatalog);
+
+            moduleCatalog.AddModule(typeof(ModuleAModule));
+            moduleCatalog.AddModule(typeof(ModuleBModule));
+
+        }
+
+        protected override void RegisterTypes(IContainerRegistry containerRegistry)
+        {
         }
     }
 }

@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PrismSandBox
+namespace ModuleA.Views
 {
     /// <summary>
-    /// Interaction logic for Shell.xaml
+    /// Interaction logic for ContentView.xaml
     /// </summary>
-    public partial class Shell : Window
+    public partial class ContentAView : UserControl
     {
-        public Shell()
+        public ContentAView()
         {
             InitializeComponent();
         }
