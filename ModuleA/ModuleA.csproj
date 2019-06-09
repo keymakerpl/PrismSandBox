@@ -49,19 +49,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\ToolbarAView.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Compile Include="ViewModels\ContentAViewModel.cs" />
     <Compile Include="Views\ContentAView.xaml.cs">
       <DependentUpon>ContentAView.xaml</DependentUpon>
     </Compile>
     <Compile Include="ModuleAModule.cs" />
-    <Compile Include="Views\ToolbarAView.xaml.cs">
-      <DependentUpon>ToolbarAView.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
